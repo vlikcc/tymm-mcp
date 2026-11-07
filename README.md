@@ -74,3 +74,7 @@ Site ASP.NET MVC ile sunucu tarafında üretiliyor. Bu sunucu iki kaynaktan okur
 - **HTML sayfaları**: ders (`/ogretim-programlari/ders/{slug}`), sınıf (`/ogretim-programlari/{slug}/{sinif_id}`), ünite (`/{slug}/unite/{unite_id}`) ve kitap (`/kitap/{id}/{slug}`) sayfaları BeautifulSoup ile ayrıştırılır.
 
 Site yapısı değişirse ayrıştırıcılar `src/tymm_mcp/client.py` içinde. Siteye aynı anda en fazla 4 istek gider; `robots.txt` yalnızca `/admin` yolunu engelliyor ve bu yol okunmaz.
+
+## Lisans
+
+[MIT](LICENSE). Lisans yalnızca bu sunucunun kodunu kapsar; tymm.meb.gov.tr üzerindeki içeriklerin hakları MEB'e aittir.

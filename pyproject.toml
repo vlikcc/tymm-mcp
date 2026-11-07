@@ -3,6 +3,8 @@ name = "tymm-mcp"
 version = "0.1.0"
 description = "Türkiye Yüzyılı Maarif Modeli (tymm.meb.gov.tr) için MCP sunucusu: öğretim programları, üniteler, öğrenme çıktıları ve ders kitapları."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=2.3,<3",
