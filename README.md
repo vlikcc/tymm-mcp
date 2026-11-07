@@ -34,8 +34,10 @@ Python 3.10 veya üzeri gerekir.
 ```bash
 cd tymm-mcp
 python3 -m venv .venv
-.venv/bin/pip install -e .
+.venv/bin/pip install .
 ```
+
+> Kodda değişiklik yaptıktan sonra `.venv/bin/pip install .` komutunu tekrar çalıştırın. Düzenlenebilir kurulum (`pip install -e .`) macOS'ta önerilmez: macOS, `.pth` dosyalarına "gizli" bayrağı koyabiliyor ve Python 3.13+ gizli `.pth` dosyalarını atladığı için sunucu MCP istemcisinden başlatıldığında `ModuleNotFoundError: tymm_mcp` hatası verir.
 
 ### Claude Code
 
